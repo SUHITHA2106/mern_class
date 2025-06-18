@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.personal-details p {
+  margin: 4px 0;
+}
