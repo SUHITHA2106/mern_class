@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  background-image: url('https://st5.depositphotos.com/31662992/63282/i/450/depositphotos_632823170-stock-photo-generative-illustration-gaming-background-abstract.jpg'); /* replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+h1 {
+  color: #333;
+}
+
+.choices {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #71b3f0;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #fb75d9;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#scores {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.move {
+  margin-top: 10px;
+}
