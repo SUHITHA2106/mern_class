@@ -5,7 +5,7 @@ function play(userChoice) {
   const choices = ['rock', 'paper', 'scissors'];
   const randomIndex = Math.floor(Math.random() * choices.length);
   const computerChoice = choices[randomIndex];
-  
+
   // Show choices
   document.getElementById('moves').innerHTML = `
     <div class="move">You chose: <strong>${capitalize(userChoice)}</strong></div>
